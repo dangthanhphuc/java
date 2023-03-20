@@ -44,9 +44,9 @@ public class HangDienMay extends MatHang{
         this.thoiGianBaoHanh = sc.nextLine();
         System.out.print("Nhap dien ap: ");
         this.dienAp = sc.nextFloat();
-        System.out.print("Nhap loai nguyen lieu: ");
+        System.out.print("Nhap cong suat: ");
         this.congSuat = sc.nextFloat();
-        System.out.println();
+
     }
 
     @Override
@@ -55,7 +55,7 @@ public class HangDienMay extends MatHang{
         System.out.println("Thoi gian bao hanh: " + thoiGianBaoHanh);
         System.out.println("Dien ap: " + dienAp);
         System.out.println("Cong suat: " + congSuat);
-        System.out.println();
+
     }
 
     private String thoiGianBaoHanh;

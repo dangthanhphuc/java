@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b018e071-8ad1-4934-a804-cdf8343d54ff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,20 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Bai1.Main">
+    <configuration name="Bai1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai1.Main" />
+      <module name="Bai5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bai1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bai3.Main" />
       <module name="Bai5" />
@@ -75,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai1.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

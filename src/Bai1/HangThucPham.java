@@ -22,7 +22,7 @@ public class HangThucPham extends MatHang{
         this.ngaySanSuat = sc.nextLine();
         System.out.print("Nhap ngay het han: ");
         this.ngayHetHang = sc.nextLine();
-        System.out.println();
+
     }
 
     @Override
@@ -30,7 +30,7 @@ public class HangThucPham extends MatHang{
         super.output();
         System.out.println("Ngay san xuat: " + ngaySanSuat);
         System.out.println("Ngay het han: " + ngayHetHang);
-        System.out.println();
+
     }
 
     public String getNgaySanSuat() {

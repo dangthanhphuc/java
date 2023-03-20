@@ -24,14 +24,14 @@ public class HangSanhSu extends MatHang{
         super.input();
         System.out.print("Nhap loai nguyen lieu: ");
         this.loaiNguyenLieu = sc.nextLine();
-        System.out.println();
+
     }
 
     @Override
     public void output() {
         super.output();
         System.out.println("Loai nguyen lieu: " + this.loaiNguyenLieu);
-        System.out.println();
+
     }
 
     private String loaiNguyenLieu;
