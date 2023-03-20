@@ -1,5 +1,7 @@
 package Bai3;
 
+import java.util.Scanner;
+
 public class HocVien extends Nguoi{
 
 
@@ -32,6 +34,26 @@ public class HocVien extends Nguoi{
         this.diem1 = diem1;
         this.diem2 = diem2;
         this.diem3 = diem3;
+    }
+
+    @Override
+    public void input() {
+        Scanner sc = new Scanner(System.in);
+        super.input();
+        System.out.print("Nhap diem 1: ");
+        this.diem1 = sc.nextFloat();
+        System.out.print("Nhap diem 2: ");
+        this.diem2 = sc.nextFloat();
+        System.out.print("Nhap diem 3: ");
+        this.diem3 = sc.nextFloat();
+    }
+
+    @Override
+    public void output() {
+        super.output();
+        System.out.println("Diem 1: " + diem1);
+        System.out.println("Diem 2: " + diem2);
+        System.out.println("Diem 3: " + diem3);
     }
 
     private float diem1;

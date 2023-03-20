@@ -1,6 +1,8 @@
 package Bai3;
 
-abstract class Nguoi {
+import java.util.Scanner;
+
+public class Nguoi {
     public Nguoi(String ten, String namSinh) {
         this.ten = ten;
         this.namSinh = namSinh;
@@ -22,6 +24,19 @@ abstract class Nguoi {
         this.namSinh = namSinh;
     }
 
-    String ten;
-    String namSinh;
+    public void input(){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhap ten: ");
+        this.ten = sc.nextLine();
+        System.out.print("Nhap nam sinh:");
+        this.namSinh = sc.nextLine();
+    }
+
+    public void output(){
+        System.out.println("Ten: " + ten);
+        System.out.println("Nam sinh: " + namSinh);
+    }
+
+    private String ten;
+    private String namSinh;
 }

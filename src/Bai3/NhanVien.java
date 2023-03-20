@@ -1,6 +1,13 @@
 package Bai3;
 
+import java.util.Scanner;
+
 public class NhanVien extends Nguoi{
+
+    private float luong;
+    private String ngayNhaViec;
+    private PhongBanKhoa pbk;
+
     public float getLuong() {
         return luong;
     }
@@ -32,14 +39,24 @@ public class NhanVien extends Nguoi{
         this.pbk = pbk;
     }
 
-    public void out(){
-        super.getTen();
-        super.getNamSinh();
-
+    @Override
+    public void input() {
+        Scanner sc = new Scanner(System.in);
+        PhongBanKhoa phongBanKhoa = new PhongBanKhoa();
+        super.input();
+        phongBanKhoa.input();
+        this.pbk = phongBanKhoa;
+        System.out.print("Nhap luong: ");
+        this.luong = sc.nextFloat();
+        System.out.print("Nhap ngay nhan viec: ");
+        this.ngayNhaViec = sc.nextLine();
     }
 
-    private float luong;
-    private String ngayNhaViec;
-    private PhongBanKhoa pbk;
-
+    @Override
+    public void output() {
+        super.output();
+        pbk.output();
+        System.out.println("Luong: " + luong);
+        System.out.println("Ngay nhan viec: " + ngayNhaViec);
+    }
 }

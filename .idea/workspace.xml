@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b018e071-8ad1-4934-a804-cdf8343d54ff" name="Changes" comment="" />
+    <list default="true" id="b018e071-8ad1-4934-a804-cdf8343d54ff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai3/HocVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3/HocVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai3/Nguoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3/Nguoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai3/NhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3/NhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai3/PhongBanKhoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3/PhongBanKhoa.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0b55b124-9299-4219-a815-35c432faea57" />
+        <option name="url" value="https://github.com/dangthanhphuc/java.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -31,13 +52,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowCommit.ShowToolbar": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowCommit.ShowToolbar&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
