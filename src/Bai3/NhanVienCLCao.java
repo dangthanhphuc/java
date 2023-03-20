@@ -8,6 +8,10 @@ public class NhanVienCLCao extends NhanVien{
     private String nganh;
     private String noiDaoTao;
 
+    public NhanVienCLCao(){
+        super();
+    }
+
     public NhanVienCLCao(String ten, String namSinh, float luong, String ngayNhaViec,
                          PhongBanKhoa pbk, String trinhDo, String nganh, String noiDaoTao) {
         super(ten, namSinh, luong, ngayNhaViec, pbk);

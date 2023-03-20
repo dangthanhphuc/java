@@ -2,7 +2,9 @@ package Bai2;
 
 public class NhanVienNghienCuu extends NhanVien{
     private float phuCapDocHai;
-
+    public NhanVienNghienCuu(){
+        super();
+    }
     public NhanVienNghienCuu(String maNhanVien, String tenNhanVien, String namSinh,
                              String trinhDo, String truongDaoTao, String chuyenMon,
                              float phuCapDocHai, float luongCoBan) {

@@ -32,6 +32,10 @@ public class NhanVien extends Nguoi{
         this.pbk = pbk;
     }
 
+    public NhanVien(){
+        super();
+    }
+
     public NhanVien(String ten, String namSinh, float luong, String ngayNhaViec, PhongBanKhoa pbk) {
         super(ten,namSinh);
         this.luong = luong;

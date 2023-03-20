@@ -29,6 +29,10 @@ public class HocVien extends Nguoi{
         this.diem3 = diem3;
     }
 
+    public HocVien(){
+        super();
+    }
+
     public HocVien(String ten, String namSinh, float diem1, float diem2, float diem3) {
         super(ten, namSinh);
         this.diem1 = diem1;

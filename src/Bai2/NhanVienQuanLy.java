@@ -11,6 +11,10 @@ public class NhanVienQuanLy extends NhanVien{
         this.phuCapChucVu = phuCapChucVu;
     }
 
+    public NhanVienQuanLy() {
+        super();
+    }
+
     public float getPhuCapChucVu() {
         return phuCapChucVu;
     }

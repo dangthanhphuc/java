@@ -20,6 +20,10 @@ public class NhanVien {
         this.luongCoBan = luongCoBan;
     }
 
+    public NhanVien() {
+
+    }
+
     public String getMaNhanVien() {
         return maNhanVien;
     }

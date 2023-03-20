@@ -1,9 +1,15 @@
 package Bai3;
 
+import Bai2.NhanVien;
+
 import java.util.Scanner;
 
 public class NVQuanLy extends NhanVienCLCao{
     private float phuCapCV;
+
+    public NVQuanLy () {
+        super();
+    }
 
     public NVQuanLy(String ten, String namSinh, float luong, String ngayNhaViec,
                     PhongBanKhoa pbk, String trinhDo, String nganh, String noiDaoTao,

@@ -3,6 +3,8 @@ package Bai3;
 import java.util.Scanner;
 
 public class Nguoi {
+
+    public Nguoi(){}
     public Nguoi(String ten, String namSinh) {
         this.ten = ten;
         this.namSinh = namSinh;
