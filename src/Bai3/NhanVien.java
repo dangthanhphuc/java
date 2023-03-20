@@ -50,10 +50,10 @@ public class NhanVien extends Nguoi{
         super.input();
         phongBanKhoa.input();
         this.pbk = phongBanKhoa;
-        System.out.print("Nhap luong: ");
-        this.luong = sc.nextFloat();
         System.out.print("Nhap ngay nhan viec: ");
         this.ngayNhaViec = sc.nextLine();
+        System.out.print("Nhap luong: ");
+        this.luong = sc.nextFloat();
     }
 
     @Override

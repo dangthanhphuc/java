@@ -24,7 +24,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Nguoi nguoi;
         List<Nguoi> list = new ArrayList<>();
-        int index = 0;
         int option = 0;
 
         do{
@@ -33,41 +32,45 @@ public class Main {
             System.out.println();
 
             switch(option){
+
                 case 1:
                     nguoi = new HocVien();
                     nguoi.input();
                     System.out.println();
-                    list.set(index, nguoi);
-                    index++;
+                    list.add(nguoi);
                     break;
                 case 2:
                     nguoi = new NVQuanLy();
                     nguoi.input();
                     System.out.println();
-                    list.set(index, nguoi);
-                    index++;
+                    list.add(nguoi);
                     break;
                 case 3:
                     nguoi = new GiaoVien();
                     nguoi.input();
                     System.out.println();
-                    list.set(index, nguoi);
-                    index++;
+                    list.add(nguoi);
                     break;
                 case 4:
                     for (Nguoi n: list )
-                        if( n instanceof HocVien)
+                        if( n instanceof HocVien) {
                             n.output();
+                            System.out.println();
+                        }
                     break;
                 case 5:
                     for (Nguoi n: list )
-                        if( n instanceof NVQuanLy)
+                        if( n instanceof NVQuanLy) {
                             n.output();
+                            System.out.println();
+                        }
                     break;
                 case 6:
-                    for (Nguoi n: list )
+                    for (Nguoi n: list ){
                         if( n instanceof GiaoVien)
                             n.output();
+                        System.out.println();
+                    }
                     break;
                 default:
                     option = 0;
