@@ -1,5 +1,7 @@
 package Bai1;
 
+import java.util.Scanner;
+
 public class MatHang {
     public String getMaHang() {
         return maHang;
@@ -46,6 +48,26 @@ public class MatHang {
         this.nhaSanSuat = nhaSanSuat;
         this.gia = gia;
     }
+
+    public void input(){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhap ma hang: ");
+        this.maHang = sc.nextLine();
+        System.out.print("Nhap ten hang: ");
+        this.tenHang = sc.nextLine();
+        System.out.print("Nhap nha san xuat: ");
+        this.nhaSanSuat = sc.nextLine();
+        System.out.print("Nhap gia: ");
+        this.gia = sc.nextFloat();
+    }
+
+    public void output(){
+        System.out.println("Ma hang: " + maHang);
+        System.out.println("Ten hang: " + tenHang);
+        System.out.println("Nha san xuat: " + nhaSanSuat);
+        System.out.println("Gia: " + gia);
+    }
+
 
     private String maHang;
     private String tenHang;
